@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  buonasera
+  <router-view></router-view>
 </template>
 
 <style></style>
