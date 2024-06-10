@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  hello
+  ciao
 </template>
 
 <style></style>
