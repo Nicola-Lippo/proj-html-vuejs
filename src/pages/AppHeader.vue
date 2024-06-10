@@ -1,4 +1,9 @@
-<script></script>
+<script>
+export default {
+    name: 'AppHeader'
+
+}
+</script>
 
 <template></template>
 
