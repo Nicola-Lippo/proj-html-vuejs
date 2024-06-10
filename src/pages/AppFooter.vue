@@ -1,5 +1,10 @@
-<script></script>
+<script>
+export default {
+    name: 'AppFooter'
+}</script>
 
-<template></template>
+<template>
+<div>prova footer</div>
+</template>
 
 <style></style>
