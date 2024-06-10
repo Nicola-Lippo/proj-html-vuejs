@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import AppHome from './pages/AppHome.vue';
+import AppHome from './pages/AppFooter.vue';
+import AppFooter from './pages/AppFooter.vue';
 
 const router = createRouter({
     history: createWebHistory(),
@@ -10,6 +12,12 @@ const router = createRouter({
             path: '/home',
             component: AppHome,
         },
+        {
+            name: 'footer',
+            path: '/footer',
+            component: AppFooter,
+        },
+
     ],
 });
 
