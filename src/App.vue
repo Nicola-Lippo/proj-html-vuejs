@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  ciao
+  buonasera
 </template>
 
 <style></style>
