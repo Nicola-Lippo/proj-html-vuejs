@@ -13,8 +13,8 @@ const router = createRouter({
             component: AppHome,
         },
         {
-            name: 'AppHeader',
-            path: '/AppHeader',
+            name: 'Header',
+            path: '/Header',
             component: AppHeader,
         },
         {
