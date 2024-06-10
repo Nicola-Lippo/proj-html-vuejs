@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import AppHome from './pages/AppHome.vue';
 import AppHeader from './pages/AppHeader.vue';
-import AppHome from './pages/AppFooter.vue';
+
 import AppFooter from './pages/AppFooter.vue';
 
 const router = createRouter({
