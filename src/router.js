@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import AppHome from './pages/AppHome.vue';
 import AppHeader from './pages/AppHeader.vue';
-
 import AppFooter from './pages/AppFooter.vue';
 
 const router = createRouter({
@@ -10,7 +9,7 @@ const router = createRouter({
     routes: [
         {
             name: 'home',
-            path: '/home',
+            path: '/',
             component: AppHome,
         },
         {
