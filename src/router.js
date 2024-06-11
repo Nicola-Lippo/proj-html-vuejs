@@ -18,9 +18,9 @@ const router = createRouter({
             component: AppHeader,
         },
         {
-            name: 'footer',
-            path: '/footer',
-            component: AppFooter,
+            name: 'Contacts',
+            path: '/Contacts',
+            component: AppContacts,
         },
     ],
 });
