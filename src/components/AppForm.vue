@@ -35,7 +35,37 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6">destra</div>
+            <div class="col-6">
+                <h2>contact us</h2>
+                <div class="elementor-icon-box-content">
+				    <h5 class="elementor-icon-box-title">
+					    <span>Address Info</span>
+				    </h5>
+					<p class="elementor-icon-box-description">
+						502 New Design Str, Melbourne, <br>
+                        San Francisco, CA 94110, <br>
+                        United States of America​ Australia
+                    </p>
+				</div>
+                <div class="elementor-icon-box-content">
+				    <h5 class="elementor-icon-box-title">
+					    <span>Contact Info</span>
+				    </h5>
+					<p class="elementor-icon-box-description">
+						068 26589 996<br>
+                        demo@example.com
+                    </p>
+				</div>
+                <div class="elementor-icon-box-content">
+				    <h5 class="elementor-icon-box-title">
+					    <span>Working Hours</span>
+				    </h5>
+					<p class="elementor-icon-box-description">
+						Open: 8:00AM – Close: 18:00PM<br>
+                        Saturday – Sunday: Close
+                    </p>
+				</div>
+            </div>
         </div>
     </div>
 </template>
@@ -57,6 +87,27 @@ button{
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
     margin: 0 auto;
     margin-top: 20px;
+}
+p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.8;
+    letter-spacing: 0.2px;
+    text-transform: none;
+}
+h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+h5{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
 }
 .border{
     border: 1px solid black;
