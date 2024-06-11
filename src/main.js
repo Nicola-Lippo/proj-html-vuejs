@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import '/src/assets/scss/main.scss'
+
 import App from './App.vue'
 
 //importo il file router
