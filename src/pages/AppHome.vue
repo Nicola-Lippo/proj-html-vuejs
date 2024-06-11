@@ -1,11 +1,15 @@
 <script>
+import carosello from '/src/components/carosello.vue';
 export default {
-    name: 'AppHome'
+    name: 'AppHome',
+    components: {
+        carosello
+    }
 }
 </script>
 
 <template>
-    <div>sono la home di prova</div>
+    <carosello />
 </template>
 
 <style></style>
