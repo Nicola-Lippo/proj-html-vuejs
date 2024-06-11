@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <div class="container-fluid text-center m-5">
+    <div class="container text-center mt-5 mb-5">
         <div><strong>PELICULA STUDIOS</strong></div>
         <h2 class="p-3"><strong>THIS IS WHAT WE DO</strong></h2>
         <div class="row">
