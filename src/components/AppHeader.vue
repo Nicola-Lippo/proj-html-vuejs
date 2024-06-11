@@ -17,7 +17,14 @@ export default {
   <div class="container-fluid d-flex justify-content-between">
     <div ><img src="https://wordpressthemes.live/WP02/WP031/wp-content/uploads/2022/08/logo.svg" alt="logo"></div>
     <div class="align-items-center d-none d-md-flex">
-        <p v-for="index in this.store.header">{{index.name }}</p>
+        <p v-for="index in this.store.header">
+            <span v-if="index.link">
+                <router-link :to="index.link">{{ index.name }}</router-link>
+            </span>
+            <span v-else>
+                {{ index.name }}
+            </span>
+        </p>
     </div>
     <div class="align-items-center d-flex d-md-none">
 
@@ -37,13 +44,14 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+
 .header {
     display: flex;
     align-items: center;
     height: 4.375rem;
     padding: 0rem 1.25rem;
    background-color: white;
-    
+    color: black;
     img{
         width: 200px;
     }
@@ -51,6 +59,10 @@ export default {
         color: black;
         margin: 0rem .625rem;
     }
+}
+a:link{ 
+    color: black;
+    text-decoration: none;
 }
 
 
