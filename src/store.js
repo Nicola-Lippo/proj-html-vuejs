@@ -28,7 +28,7 @@ export const store = reactive({
     ],
     aboutImg: [{
         link: "https://wordpressthemes.live/WP02/WP031/wp-content/uploads/2022/08/Gallery-01.jpg",
-        title: 'SEVENTEENTH SUMMER',
+        title: 'FABRICIO GUERRA',
         text: 'Commercial, Music Video.',
     },
     {
@@ -41,6 +41,27 @@ export const store = reactive({
         title: 'THE MOST BEAUTIFUL THING',
         text: 'Music Video',
     },],
+    aboutImgTeam: [{
+        link: "	https://wordpressthemes.live/WP02/WP031/wp-content/uploads/2022/08/Team-01.jpg",
+        name: 'FABRICIO GUERRA',
+        text: 'Main Director',
+    },
+    {
+        link: "	https://wordpressthemes.live/WP02/WP031/wp-content/uploads/2022/08/Team-02.jpg",
+        name: 'UMBERTO PAGODA',
+        text: 'Main Writer',
+    },
+    {
+        link: "https://wordpressthemes.live/WP02/WP031/wp-content/uploads/2022/08/Team-03.jpg",
+        name: 'GLORIA RICCASSO',
+        text: 'Main Producer',
+    },
+    {
+        link: "	https://wordpressthemes.live/WP02/WP031/wp-content/uploads/2022/08/Team-04.jpg",
+        name: 'LIO NAPOIN',
+        text: 'Cameraman',
+    },]
+
 }
 
 

@@ -32,7 +32,7 @@ rhoncus justo. suspendisse luctus pharetra eleme tcondimentum.</span>
     height: 570px;
 }
 button{
-    margin: 40px;
+    margin: 40px 0px;
     background-color: white;
     border: none;
 width: 180px;
