@@ -1,7 +1,7 @@
 <template>
     <footer>
         <div class="constainer-fluid">
-            <div class="row">
+            <div class="row pb-5">
 
                 <ul class="col-3">
                     <li><strong>CONTACT INFO</strong></li>
@@ -33,7 +33,8 @@
                     <li><input type="text" placeholder="Enter Your Email"></li>
                     <li><button>SUBSCRIBE</button></li>
                 </ul>
-            </div>
+                </div>
+            <p class="text-center pt-5">2024 All Rights Reserved. Developed By TemplateMela</p>
         </div>
         
     </footer>
@@ -47,6 +48,19 @@ footer{
     background-color: black;
     color: white;
     padding: 20px;
+}
+button{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    padding: 12px 40px 12px 40px;
+    border: none;
+}
+p{
+    border-top: 1px solid white;
 }
 </style>
 <script>
