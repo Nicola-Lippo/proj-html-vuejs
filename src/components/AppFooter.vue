@@ -5,10 +5,18 @@
 
                 <ul class="col-3">
                     <li><strong>CONTACT INFO</strong></li>
-                    <li>2/45 Tower Street, New York
+                    <li>
+                        <img src="https://wp.themedemo.org/WP02/WP031/wp-content/uploads/2022/08/footer-location-dot-solid.svg" alt="">
+                        2/45 Tower Street, New York
                         USA</li>
-                    <li>Call Us On 0800 840 1010</li>
-                    <li>Demo@Example.Com</li>
+                    <li>
+                        <img src="https://wp.themedemo.org/WP02/WP031/wp-content/uploads/2022/08/footer-phone-solid.svg" alt="">
+                        Call Us On 0800 840 1010
+                    </li>
+                    <li>
+                        <img decoding="async" class="wp-image-9058" src="https://wp.themedemo.org/WP02/WP031/wp-content/uploads/2022/08/footer-envelope-soli.svg" alt="">
+                        Demo@Example.Com
+                    </li>
                 </ul>
                 <ul class="col-3">
                     <li><strong>INFORMATION</strong></li>
@@ -64,6 +72,11 @@ button {
 
 p {
     border-top: 1px solid white;
+}
+img {
+    margin-inline-end: 20px;
+    width: 20px;
+    height: 18px;
 }
 </style>
 <script>
