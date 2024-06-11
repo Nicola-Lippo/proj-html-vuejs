@@ -18,7 +18,7 @@ export default {
     </div>
 </template>
 
-<style>
+<style scoped>
 .img{
     background-image: url(./img/bredcum-img.jpg);
     background-repeat: no-repeat;
