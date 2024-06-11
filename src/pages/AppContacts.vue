@@ -6,7 +6,7 @@ export default {
 
 <template>
     <div class="img">
-        <div class="grandezza">
+        <div class="d-flex justify-content-center align-items-center grandezza flex-column">
             <h1>contacts</h1>
             <p>Home / Contacts</p>
         </div>
@@ -23,7 +23,6 @@ export default {
     background-attachment: scroll;
 }
 h1, p{
-    text-align: center;
     color: white;
 }
 .grandezza{
