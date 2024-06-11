@@ -10,7 +10,7 @@ export default {
             <h1>Contacts</h1>
             <p>
                 <span>
-                    <a href="./AppHome.vue">Home</a>
+                    <router-link to="/">Home</router-link>
                 </span>
                  / Contacts</p>
         </div>
