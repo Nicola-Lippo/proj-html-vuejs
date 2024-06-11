@@ -3,7 +3,7 @@ import { reactive } from "vue";
 export const store = reactive({
     header: [{
         name: 'HOME',
-        link: "/src/pages/AppHome.vue"
+        link: "/"
     },
     {
         name: 'BLOG',
@@ -13,10 +13,11 @@ export const store = reactive({
     },
     {
         name: 'ABOUT',
+        link: "/About",
     },
     {
         name: 'CONTACTS',
-        link: "/src/pages/AppContacts.vue"
+        link: "/Contacts"
     },
     {
         name: 'GALLERY',
