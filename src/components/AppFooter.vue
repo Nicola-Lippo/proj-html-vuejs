@@ -33,23 +33,25 @@
                     <li><input type="text" placeholder="Enter Your Email"></li>
                     <li><button>SUBSCRIBE</button></li>
                 </ul>
-                </div>
+            </div>
             <p class="text-center pt-5">2024 All Rights Reserved. Developed By TemplateMela</p>
         </div>
-        
+
     </footer>
 </template>
 <style scoped>
-li{
+li {
     list-style: none;
     padding: 10px;
 }
-footer{
+
+footer {
     background-color: black;
     color: white;
     padding: 20px;
 }
-button{
+
+button {
     font-weight: 700;
     font-size: 15px;
     line-height: 24px;
@@ -59,7 +61,8 @@ button{
     padding: 12px 40px 12px 40px;
     border: none;
 }
-p{
+
+p {
     border-top: 1px solid white;
 }
 </style>

@@ -1,15 +1,15 @@
 <script>
-import carosello from '/src/components/carosello.vue';
+import pelicula from '/src/components/pelicula.vue';
 export default {
     name: 'AppHome',
     components: {
-        carosello
+        pelicula
     }
 }
 </script>
 
 <template>
-    <carosello />
+    <pelicula />
 </template>
 
 <style></style>
