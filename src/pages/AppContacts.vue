@@ -1,6 +1,10 @@
 <script>
+import Mappa from '../components/AppMap.vue'
 export default {
-    name: 'AppContacts'
+    name: 'AppContacts',
+    components: {
+        Mappa,
+    }
 }
 </script>
 
@@ -16,6 +20,7 @@ export default {
         </div>
             
     </div>
+    <Mappa></Mappa>
 </template>
 
 <style scoped>
