@@ -9,7 +9,13 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faMagnifyingGlass as searchicon } from '@fortawesome/free-solid-svg-icons';
 import { faBars as homburger } from '@fortawesome/free-solid-svg-icons/faBars';
-library.add(searchicon, homburger);
+import { faVideo } from '@fortawesome/free-solid-svg-icons';
+import { faGlasses } from '@fortawesome/free-solid-svg-icons';
+import { faMask } from '@fortawesome/free-solid-svg-icons';
+import { faChair } from '@fortawesome/free-solid-svg-icons';
+import { faFilm } from '@fortawesome/free-solid-svg-icons';
+import { faTicket } from '@fortawesome/free-solid-svg-icons';
+library.add(searchicon, homburger, faVideo, faGlasses, faMask, faChair, faFilm, faTicket);
 // Import all of Bootstrap's JS
 import * as bootstrap from 'bootstrap'
 
