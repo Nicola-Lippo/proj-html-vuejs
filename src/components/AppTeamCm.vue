@@ -25,10 +25,7 @@ export default {
                 <img :src="index.link" alt="">
                 <h3>{{ index.name }}</h3>
                 <span>{{ index.text }}</span>
-
             </div>
-
-    
         </div>
     </div>
 

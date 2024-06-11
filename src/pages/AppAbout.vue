@@ -3,6 +3,7 @@ import { store } from '../store';
 import AppImages from '../components/AppImages.vue';
 import AppImgMc from '../components/AppImgMc.vue';
 import AppTeamCm from '../components/AppTeamCm.vue';
+import AppScrollImg from '../components/AppScrollImg.vue';
 export default {
     name: 'AppAbout',
     data() {
@@ -12,7 +13,7 @@ export default {
         
     },
     components:{
-        AppImages,AppImgMc,AppTeamCm
+        AppImages,AppImgMc,AppTeamCm,AppScrollImg
     }
 }
 
@@ -36,6 +37,7 @@ export default {
     <AppImgMc/>
 
 <AppTeamCm/>
+<AppScrollImg/>
 
 
 
@@ -58,7 +60,7 @@ h1, p, a{
     color: white;
 }
 .grandezza{
-    min-height: 250px;
+    min-height: 300px;
 }
 h1{
     font-weight: 700;
