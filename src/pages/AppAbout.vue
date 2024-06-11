@@ -1,6 +1,6 @@
 <script>
 import { store } from '../store';
-import {AppImages} from '../components/AppImages.vue';
+import AppImages from '../components/AppImages.vue';
 export default {
     name: 'AppAbout',
     data() {
