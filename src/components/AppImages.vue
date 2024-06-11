@@ -18,13 +18,13 @@ export default {
     <div class="container-fluid d-flex justify-content-center">
         <div class="container-SD">
             <div class="text">
-                <span>YOUR WATCHLIST</span>
+                <span class="watchlist">YOUR WATCHLIST</span>
                 <h2>BEST HITS MOVIES</h2>
             </div>
             <div v-for="index in this.store.aboutImg" :class="'hits'">
                 <img :src="index.link" alt="">
                 <h3>{{ index.title }}</h3>
-                <span>{{ index.text }}</span>
+                <span class="text">{{ index.text }}</span>
 
             </div>
 
@@ -36,7 +36,35 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-
+.watchlist{
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: var(--global-palette3);
+}
+h3 {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 1.4;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+.text{
+    
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.8;
+    letter-spacing: 0.2px;
+    text-transform: none;
+}
 .container-SD{
     width: 90%;
     padding: 3.125rem 0;
