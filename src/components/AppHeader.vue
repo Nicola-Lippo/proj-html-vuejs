@@ -34,7 +34,7 @@ export default {
     <div class="d-flex align-items-center">
 
         <font-awesome-icon :icon="['fas', 'magnifying-glass']" />
-
+        
     </div>
     
   </div>
@@ -50,8 +50,9 @@ export default {
     align-items: center;
     height: 4.375rem;
     padding: 0rem 1.25rem;
-   background-color: white;
+    background-color: white;
     color: black;
+    
     img{
         width: 200px;
     }
