@@ -1,7 +1,8 @@
 <script>
 export default {
     name: 'AppContacts'
-}</script>
+}
+</script>
 
 <template>
 <div>prova Contacts</div>
