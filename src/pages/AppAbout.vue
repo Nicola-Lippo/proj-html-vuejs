@@ -1,6 +1,7 @@
 <script>
 import { store } from '../store';
 import AppImages from '../components/AppImages.vue';
+import AppImgMc from '../components/AppImgMc.vue';
 export default {
     name: 'AppAbout',
     data() {
@@ -10,7 +11,7 @@ export default {
         
     },
     components:{
-        AppImages,
+        AppImages,AppImgMc,
     }
 }
 
@@ -31,7 +32,7 @@ export default {
     
     <AppImages/>
 
-
+    <AppImgMc/>
 
 
 
