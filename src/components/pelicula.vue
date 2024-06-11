@@ -6,7 +6,7 @@ export default {
 
 <template>
     <div class="container-fluid text-center m-5">
-        <div><strong>PELICULA STUDIO</strong></div>
+        <div><strong>PELICULA STUDIOS</strong></div>
         <h2 class="p-3"><strong>THIS IS WHAT WE DO</strong></h2>
         <div class="row">
             <!--1 ELEMENTO-->
