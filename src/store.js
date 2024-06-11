@@ -26,6 +26,18 @@ export const store = reactive({
         name: 'SHOP',
     },
     ],
+    aboutImg: [{
+
+        link: "https://wordpressthemes.live/WP02/WP031/wp-content/uploads/2022/08/Gallery-01.jpg"
+    },
+    {
+
+        link: "https://wordpressthemes.live/WP02/WP031/wp-content/uploads/2022/08/Gallery-02.jpg",
+    },
+    {
+
+        link: "https://wordpressthemes.live/WP02/WP031/wp-content/uploads/2022/08/Gallery-03.jpg"
+    },],
 }
 
 

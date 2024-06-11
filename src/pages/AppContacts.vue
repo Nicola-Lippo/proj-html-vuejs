@@ -1,9 +1,11 @@
 <script>
 import Mappa from '../components/AppMap.vue'
+import Form from '../components/AppForm.vue'
 export default {
     name: 'AppContacts',
     components: {
         Mappa,
+        Form,
     }
 }
 </script>
@@ -21,6 +23,7 @@ export default {
             
     </div>
     <Mappa></Mappa>
+    <Form></Form>
 </template>
 
 <style scoped>
