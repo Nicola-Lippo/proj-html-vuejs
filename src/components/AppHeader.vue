@@ -1,69 +1,48 @@
 <script>
+import { store } from '/src/store.js';
 export default {
-    name: 'Header'
 
+    data() {
+        return {
+            store,
+        }
+    }
 }
-</script>
+
+</script >
 
 <template>
-    <div class="header">
-        <div class="col-header">
-            <span>icons</span><span>title</span>
-        </div>
-        <div class="col-header">
-            <span>link-list</span>
-        </div>
-        <div class="col-header">
-            <span>search</span><span>icons</span>
-        </div>
 
-        <div class="header">
-            <div class="col-header text-left">
-                <img id="logo" src="https://wordpressthemes.live/WP02/WP031/wp-content/uploads/2022/08/logo.svg"
-                    alt="logo">
-            </div>
-            <div class="col-header">
-                <span>link-list</span>
-            </div>
-            <div class="col-header text-right">
-                <span>search</span><span>icons</span>
-            </div>
-
-        </div>
-
-
-
-
+<nav class="header">
+  <div class="container-fluid d-flex justify-content-between">
+    <div ><img src="https://wordpressthemes.live/WP02/WP031/wp-content/uploads/2022/08/logo.svg" alt="logo"></div>
+    <div class="d-flex align-items-center">
+        <p v-for="index in this.store.header">{{index.name }}</p>
     </div>
+    <div><font-awesome-icon :icon="['fas', 'magnifying-glass']" /></div>
+    
+  </div>
+</nav>
+
 
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .header {
-
-    height: 12vh;
-    width: 100vw;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    height: 4.375rem;
     padding: 0rem 1.25rem;
     background-color: aquamarine;
+    
+    img{
+        width: 200px;
+    }
+    p{
+        margin: 0rem .625rem;
+    }
 }
 
-.col-header {
-    text-align: center;
-    width: calc(100% / 3);
-    background-color: blue;
-}
 
-.text-left {
-    text-align: left;
-}
 
-.text-right {
-    text-align: right;
-}
-
-#logo {
-    width: 200px;
-}
 </style>
