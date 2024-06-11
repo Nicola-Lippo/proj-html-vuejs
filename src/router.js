@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import AppHome from './pages/AppHome.vue';
 import AppAbout from './pages/AppAbout.vue';
-import AppFooter from './pages/AppFooter.vue';
+import AppContacts from './pages/AppContacts.vue';
+
 
 const router = createRouter({
     history: createWebHistory(),
