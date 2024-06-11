@@ -1,7 +1,7 @@
 <template>
     <footer>
         <div class="constainer-fluid">
-            <div class="row pb-5">
+            <div class="row pb-5 pt-5">
 
                 <ul class="col-3">
                     <li><strong>CONTACT INFO</strong></li>
