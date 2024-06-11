@@ -7,8 +7,12 @@ export default {
 <template>
     <div class="img">
         <div class="d-flex justify-content-center align-items-center grandezza flex-column">
-            <h1>contacts</h1>
-            <p>Home / Contacts</p>
+            <h1>Contacts</h1>
+            <p>
+                <span>
+                    <a href="./AppHome.vue">Home</a>
+                </span>
+                 / Contacts</p>
         </div>
             
     </div>
@@ -22,10 +26,17 @@ export default {
     background-size: cover;
     background-attachment: scroll;
 }
-h1, p{
+h1, p, a{
     color: white;
 }
 .grandezza{
     min-height: 250px;
+}
+h1{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    letter-spacing: 0.6px;
+    text-transform: uppercase; 
 }
 </style>
