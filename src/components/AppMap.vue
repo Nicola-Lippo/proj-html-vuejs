@@ -4,5 +4,4 @@ export default {
 }
 </script>
 <template>
-    mappa
 </template>
