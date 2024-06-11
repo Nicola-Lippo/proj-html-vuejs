@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-<div>prova Contacts</div>
+<div><img src="./img/bredcum-img.jpg"></div>
 </template>
 
 <style></style>
