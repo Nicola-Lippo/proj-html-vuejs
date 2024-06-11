@@ -8,7 +8,8 @@ import './assets/scss/main.scss'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faMagnifyingGlass as searchicon } from '@fortawesome/free-solid-svg-icons';
-library.add(searchicon,);
+import { faBars as homburger } from '@fortawesome/free-solid-svg-icons/faBars';
+library.add(searchicon, homburger);
 // Import all of Bootstrap's JS
 import * as bootstrap from 'bootstrap'
 
