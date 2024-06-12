@@ -1,37 +1,25 @@
 <script>
-import { store } from '../store';
 
 export default {
     name: 'AppImages',
-    data() {
-        return {
-            store,
-        }
+    props:{
+        'image': String,
+        'titolo': String,
+        'genere': String,
     }
+    
 }
 
 </script>
 
 <template>
     
-    
-    <div class="container-fluid d-flex justify-content-center">
-        <div class="container-SD">
-            <div class="text">
-                <span class="watchlist">YOUR WATCHLIST</span>
-                <h2>BEST HITS MOVIES</h2>
-            </div>
-            <div v-for="index in this.store.aboutImg" :class="'hits'">
-                <img :src="index.link" alt="">
-                <h3>{{ index.title }}</h3>
-                <span class="text">{{ index.text }}</span>
-
-            </div>
-
-    
-        </div>
+    <div class="hits">
+        <img :src="image" alt="img">
+        <h3>{{ titolo }}</h3>
+        <span>{{ genere }}</span>
     </div>
-
+    
 
 </template>
 
@@ -65,27 +53,17 @@ h3 {
     letter-spacing: 0.2px;
     text-transform: none;
 }
-.container-SD{
-    width: 90%;
-    padding: 3.125rem 0;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-  .hits{
+.hits{
     
     height: 400px;
     width: calc(100% / 3 - 1.875rem);
     text-align: center;
      img{
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
      }
   }
-  .text{
-    text-align: center;
-    width: 100%;
-    margin-bottom: 30px;
-  }
-}
+
+
+
 </style>
