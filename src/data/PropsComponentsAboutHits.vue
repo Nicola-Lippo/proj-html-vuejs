@@ -1,7 +1,7 @@
 <script>
-import AppImages from './AppImages.vue';
+import AppImages from '../components/AppImages.vue';
 export default {
-    name: 'PropsComponents',
+    name: 'PropsComponentsAboutHits',
     components: {
         AppImages
     },

@@ -1,10 +1,10 @@
 <script>
 import { store } from '../store';
-import AppImages from '../components/AppImages.vue';
 import AppImgMc from '../components/AppImgMc.vue';
 import AppTeamCm from '../components/AppTeamCm.vue';
 import AppScrollImg from '../components/AppScrollImg.vue';
-import PropsListComponents from '../components/PropsListComponents.vue';
+import PropsComponentsAboutHits from '../data/PropsComponentsAboutHits.vue';
+import PropsComponentsAboutTeam from '../data/PropsComponentsAboutTeam.vue';
 export default {
     name: 'AppAbout',
     data() {
@@ -14,7 +14,7 @@ export default {
         
     },
     components:{
-        AppImages,AppImgMc,AppTeamCm,AppScrollImg,PropsListComponents
+        AppImgMc,AppTeamCm,AppScrollImg,PropsComponentsAboutHits,PropsComponentsAboutTeam
     }
 }
 
@@ -34,16 +34,13 @@ export default {
     </div>
     
     
-    <PropsListComponents/>
-    
-        
-    
-    
+    <PropsComponentsAboutHits/>
 
     <AppImgMc/>
 
-<AppTeamCm/>
-<AppScrollImg/>
+    <PropsComponentsAboutTeam/>
+
+    <AppScrollImg/>
 
 
 
