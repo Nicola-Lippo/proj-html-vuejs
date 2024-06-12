@@ -48,6 +48,11 @@
     </footer>
 </template>
 <style scoped>
+input{
+    background: #1c1c1c;
+    border: #1c1c1c;
+    padding: 0.54em 1.3em;
+}
 li {
     list-style: none;
     padding: 10px;
