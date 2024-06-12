@@ -18,4 +18,6 @@ export default {
   <AppFooter></AppFooter>
 </template>
 
-<style></style>
+<style>
+
+</style>

@@ -24,4 +24,6 @@ export default {
     <PropsComponentsAboutTeam/>
 </template>
 
-<style></style>
+<style>
+
+</style>

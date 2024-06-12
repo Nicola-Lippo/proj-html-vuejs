@@ -58,6 +58,7 @@ export default {
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
+    
 }
 h1, p, a{
     color: white;

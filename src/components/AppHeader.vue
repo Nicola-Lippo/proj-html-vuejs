@@ -44,11 +44,13 @@ export default {
 .header {
     display: flex;
     align-items: center;
-    height: 4.375rem;
+    height: 13%;
+    width: 100vw;
     padding: 0rem 1.25rem;
     background-color: white;
     color: black;
-
+position: fixed;
+z-index: 2;
     img {
         width: 200px;
     }
@@ -59,8 +61,5 @@ export default {
     }
 }
 
-a:link {
-    color: black;
-    text-decoration: none;
-}
+
 </style>
