@@ -1,14 +1,15 @@
 <script>
-import pelicula from '/src/components/pelicula.vue';
-import YourWatchlist from '../components/YourWatchlist.vue';
+import pelicula from '/src/components/nicola/pelicula.vue';
+import YourWatchlist from '../data/YourWatchlist.vue';
 import PropsComponentsAboutTeam from '../data/PropsComponentsAboutTeam.vue';
 import AppImgMc from '../components/AppImgMc.vue';
 import carosello from '../components/carosello.vue';
-import BlackBar from '../components/BlackBar.vue';
+import BlackBar from '../components/nicola/BlackBar.vue';
+import CollaBorate from '../components/nicola/CollaBorate.vue';
 export default {
     name: 'AppHome',
     components: {
-        pelicula, AppImgMc, YourWatchlist, carosello, BlackBar,PropsComponentsAboutTeam
+        pelicula, AppImgMc, YourWatchlist, carosello, BlackBar, PropsComponentsAboutTeam, CollaBorate
     },
 
 
@@ -21,7 +22,8 @@ export default {
     <AppImgMc />
     <YourWatchlist />
     <BlackBar />
-    <PropsComponentsAboutTeam/>
+    <PropsComponentsAboutTeam />
+    <CollaBorate />
 </template>
 
 <style></style>
