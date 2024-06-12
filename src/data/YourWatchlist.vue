@@ -1,5 +1,5 @@
 <script>
-import CardList from './CardList.vue';
+import CardList from '../components/CardList.vue';
 export default {
     name: 'YourWatchlist',
     components: {
