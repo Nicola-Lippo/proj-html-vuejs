@@ -9,12 +9,13 @@ export default {
     }
 }
 
-</script >
+</script>
 
 <template>
     <nav class="header">
         <div class="container-fluid d-flex justify-content-between">
-            <div><img src="https://wordpressthemes.live/WP02/WP031/wp-content/uploads/2022/08/logo.svg" alt="logo"></div>
+            <div><img src="https://wordpressthemes.live/WP02/WP031/wp-content/uploads/2022/08/logo.svg" alt="logo">
+            </div>
             <div class="align-items-center d-none d-md-flex">
                 <p v-for="index in this.store.header">
                     <span v-if="index.link">
@@ -30,22 +31,46 @@ export default {
                 <font-awesome-icon :icon="['fas', 'bars']" />
 
             </div>
-            <div class="d-flex align-items-center">
+            <div class="d-flex" id="">
+                <div class="d-flex align-items-center" id="search">
 
-                <font-awesome-icon :icon="['fas', 'magnifying-glass']" />
+                    <font-awesome-icon :icon="['fas', 'magnifying-glass']" />
 
+                </div>
+                <div class="d-flex align-items-center" id="icon-brans">
+
+                    <font-awesome-icon :icon="['fas', 'magnifying-glass']" />
+                    <font-awesome-icon :icon="['fas', 'magnifying-glass']" />
+                    <font-awesome-icon :icon="['fas', 'magnifying-glass']" />
+                    <font-awesome-icon :icon="['fas', 'magnifying-glass']" />
+                    <font-awesome-icon :icon="['fas', 'magnifying-glass']" />
+                </div>
             </div>
-
         </div>
     </nav>
 </template>
 
 <style lang="scss" scoped>
-.links{
+.links {
     color: black;
     text-decoration: none;
 }
-.header{
+
+#search {
+
+    border-right: 2px solid gray;
+    height: 30px;
+    padding: 0px 25px;
+}
+
+#icon-brans {
+
+    height: 30px;
+    padding: 0px 25px;
+
+}
+
+.header {
     display: flex;
     align-items: center;
     height: 90px;
@@ -53,9 +78,10 @@ export default {
     padding: 0rem 1.25rem;
     background-color: white;
     color: black;
-position: fixed;
-top: 0px;
-z-index: 2;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+
     img {
         width: 200px;
     }
@@ -65,6 +91,4 @@ z-index: 2;
         margin: 0rem .625rem;
     }
 }
-
-
 </style>
