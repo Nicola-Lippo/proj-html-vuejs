@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <div class="container-fluid h-600 d-flex">
+    <div class="container-fluid h-400 d-flex">
         <div class="container d-flex justify-content-around align-items-center flex-column">
             <div><font-awesome-icon :icon="['fa', 'quote-left']" size="5x" /></div>
             <!--CAROSELLO-->
@@ -85,8 +85,8 @@ export default {
 </template>
 
 <style scoped>
-.h-600 {
-    height: 600px;
+.h-400 {
+    height: 400px;
     background-image: url(https://wordpressthemes.live/WP02/WP031/wp-content/uploads/2022/08/Parallax-02.jpg);
     background-size: cover;
     background-attachment: fixed;

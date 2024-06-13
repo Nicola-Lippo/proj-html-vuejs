@@ -8,10 +8,11 @@ import BlackBar from '../components/nicola/BlackBar.vue';
 import CollaBorate from '../components/nicola/CollaBorate.vue';
 import AppScrollImg from '../components/AppScrollImg.vue';
 import JohnDoe from '../components/nicola/JohnDoe.vue';
+import LatestNews from '../data/LatestNews.vue';
 export default {
     name: 'AppHome',
     components: {
-        pelicula, AppImgMc, YourWatchlist, carosello, BlackBar, PropsComponentsAboutTeam, CollaBorate, AppScrollImg, JohnDoe
+        pelicula, AppImgMc, YourWatchlist, carosello, BlackBar, PropsComponentsAboutTeam, CollaBorate, AppScrollImg, JohnDoe, LatestNews
     },
 
 
@@ -26,6 +27,7 @@ export default {
     <BlackBar />
     <PropsComponentsAboutTeam />
     <JohnDoe />
+    <LatestNews />
     <AppScrollImg />
     <CollaBorate />
 </template>
