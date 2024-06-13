@@ -21,6 +21,7 @@ export default {
 </script>
 
 <template>
+    
     <div class="img">
         <div class="d-flex justify-content-center align-items-center grandezza flex-column">
             <h1>About</h1>
@@ -52,12 +53,14 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.img{
+
+.img{margin-top: 90px;
     background-image: url(./img/bredcum-img.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
+    
     
 }
 h1, p, a{

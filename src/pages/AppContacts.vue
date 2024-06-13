@@ -28,6 +28,7 @@ export default {
 
 <style scoped>
 .img{
+    margin-top: 90px;
     background-image: url(./img/bredcum-img.jpg);
     background-repeat: no-repeat;
     background-position: center;

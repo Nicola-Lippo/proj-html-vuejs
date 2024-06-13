@@ -2,6 +2,7 @@
 import CardNews from '../components/nicola/CardNews.vue';
 export default {
     name: 'LatestNews',
+    
     components: {
         CardNews
     },
@@ -46,20 +47,23 @@ export default {
                 },
             ]
         }
-    }
+        
+    },
+    
 }
 </script>
 
 <template>
-    <div class="container text-center mt-5 mb-5">
-        <div><strong>LATEST NEWS</strong></div>
+    <div class="container d-flex text-center mt-5 mb-5">
+        <div>
+            <strong>LATEST NEWS</strong>
         <h2 class="p-3"><strong>ARTICLES UPDATED DAILY</strong></h2>
         <div class=" row">
             <div class="col-4" v-for="(msn, index) in news" :key="index">
                 <CardNews :foto="msn.img" :date="msn.data" :titolo="msn.title" :text="msn.upd" />
             </div>
         </div>
-
+        </div>
     </div>
 </template>
 

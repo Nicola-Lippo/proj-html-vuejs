@@ -35,7 +35,7 @@ export default {
 <template>
 
     
-    <div class="container d-flex justify-content-center">
+    <div class="container-fluid d-flex justify-content-center">
         <div class="container-SD">
             <div class="text">
                 <span class="pericuros">THE PERICUROS</span>
@@ -85,8 +85,8 @@ p {
 }
 
 .container-SD {
-    width: 90%;
-    padding: 3.125rem 0;
+    width: 95%;
+    padding: 3.125rem 0px 6.25rem 0rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;

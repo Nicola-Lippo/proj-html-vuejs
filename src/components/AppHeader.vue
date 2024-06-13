@@ -44,12 +44,13 @@ export default {
 .header {
     display: flex;
     align-items: center;
-    height: 13%;
+    height: 90px;
     width: 100vw;
     padding: 0rem 1.25rem;
     background-color: white;
     color: black;
 position: fixed;
+top: 0px;
 z-index: 2;
     img {
         width: 200px;

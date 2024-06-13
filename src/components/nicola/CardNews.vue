@@ -11,7 +11,6 @@ export default {
         <p class="pt-3">{{ date }}</p>
         <div class="pb-2"><strong>{{ titolo }}</strong></div>
         <div>{{ text }}</div>
-
     </div>
 </template>
 

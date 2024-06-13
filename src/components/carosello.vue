@@ -46,5 +46,9 @@ export default {
 <style scoped>
 .big-text {
     font-size: 80px;
+    
+}
+.container-fluid{
+    margin-top: 90px;
 }
 </style>

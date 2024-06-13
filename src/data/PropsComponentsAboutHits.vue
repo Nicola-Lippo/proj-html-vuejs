@@ -57,7 +57,7 @@ export default {
     }
 }
 .container-SD{
-    width: 90%;
+    width: 95%;
     padding: 6.25rem 0;
     display: flex;
     flex-wrap: wrap;
