@@ -6,10 +6,12 @@ import AppImgMc from '../components/AppImgMc.vue';
 import carosello from '../components/carosello.vue';
 import BlackBar from '../components/nicola/BlackBar.vue';
 import CollaBorate from '../components/nicola/CollaBorate.vue';
+import AppScrollImg from '../components/AppScrollImg.vue';
+import JohnDoe from '../components/nicola/JohnDoe.vue';
 export default {
     name: 'AppHome',
     components: {
-        pelicula, AppImgMc, YourWatchlist, carosello, BlackBar, PropsComponentsAboutTeam, CollaBorate
+        pelicula, AppImgMc, YourWatchlist, carosello, BlackBar, PropsComponentsAboutTeam, CollaBorate, AppScrollImg, JohnDoe
     },
 
 
@@ -23,9 +25,9 @@ export default {
     <YourWatchlist />
     <BlackBar />
     <PropsComponentsAboutTeam />
+    <JohnDoe />
+    <AppScrollImg />
     <CollaBorate />
 </template>
 
-<style>
-
-</style>
+<style></style>
