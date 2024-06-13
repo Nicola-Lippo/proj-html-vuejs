@@ -18,7 +18,7 @@ export default {
             <div class="align-items-center d-none d-md-flex">
                 <p v-for="index in this.store.header">
                     <span v-if="index.link">
-                        <router-link :to="index.link">{{ index.name }}</router-link>
+                        <router-link class="links" :to="index.link">{{ index.name }}</router-link>
                     </span>
                     <span v-else>
                         {{ index.name }}
@@ -41,7 +41,11 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.header {
+.links{
+    color: black;
+    text-decoration: none;
+}
+.header{
     display: flex;
     align-items: center;
     height: 90px;
