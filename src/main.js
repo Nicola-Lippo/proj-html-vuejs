@@ -15,7 +15,8 @@ import { faMask } from '@fortawesome/free-solid-svg-icons';
 import { faChair } from '@fortawesome/free-solid-svg-icons';
 import { faFilm } from '@fortawesome/free-solid-svg-icons';
 import { faTicket } from '@fortawesome/free-solid-svg-icons';
-library.add(searchicon, homburger, faVideo, faGlasses, faMask, faChair, faFilm, faTicket);
+import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
+library.add(searchicon, homburger, faVideo, faGlasses, faMask, faChair, faFilm, faTicket, faQuoteLeft);
 // Import all of Bootstrap's JS
 import * as bootstrap from 'bootstrap'
 
